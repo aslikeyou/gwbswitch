@@ -1,3 +1,4 @@
 #!/bin/bash
 
-php -S localhost:8080
+cd web
+php -S 0.0.0.0:8080
