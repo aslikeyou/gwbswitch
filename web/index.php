@@ -14,7 +14,7 @@ define('PATH2PROJECT', getenv('PATH2PROJECT'));
 define('EXEC_AFTER', getenv('EXEC_AFTER'));
 
 
-$app['debug'] = true;
+$app['debug'] = getenv('DEBUG');
 $app->register(new Silex\Provider\TwigServiceProvider(), array(
     'twig.path' => __DIR__.'/../views',
 ));

@@ -1,4 +1,4 @@
 #!/bin/bash
 
 cd web
-php -S 0.0.0.0:8080
+php -S 0.0.0.0:8080 &
